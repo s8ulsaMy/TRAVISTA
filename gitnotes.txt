@@ -1,0 +1,57 @@
+git commands :
+
+* CONFIGURING GIT
+
+git config --global user.name "My name"
+
+git config --global user.email "emailname"
+
+git config --list  //it shows all the configuration details
+
+* CLONE AND STATUS 
+
+git clone <--! Link URL -->     //cloning a repository on a local machine
+
+git status  //displays the state of the code
+
+cd    // this command stands for change directory ...used for choosing specific file locations for terminal
+
+ls   // it shows all the files present in the github repository
+
+ls -a   // it shows the hidden files as well
+
+
+* AHEAD OF FILE NAME (4 STAGES)
+
+UNTRACKED (U)    --->  new files that git doesn't track   (files that are not present in github)
+
+MODEIFIED (M)    ---> changed files (already present in the github)
+
+STAGED    (A)    ---> file that is ready to be committed 
+
+UNCHANGED  - Unmodified
+
+* ADD AND COMMIT 
+
+//now to add the files in the github , i.e from local machine to remote machine ...then we use these 2 steps
+
+first  - - - >    add
+
+git add <--!FILE NAME-->        //adds new or changed files tin your working directory to the git staging area
+
+---------or---------- 
+
+git add .      // for adding multiple files at once 
+
+second - - - >    commit
+
+git commit -m "some text"       //it is the record of the change 
+
+* PUSH COMMAND : 
+
+// to push your code (from local repo ) to the github (remote repo )
+
+git push origin main 
+
+
+
