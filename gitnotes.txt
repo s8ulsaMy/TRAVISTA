@@ -56,5 +56,62 @@ git push origin main
 here origin is the github repo name (where file ae being saved--- default)
 and main is the branch name 
 
-<br>
-Author - SAM
+* INIT COMMAND     (if project is in the local machine and wants to add it to the git)
+init - used to create a new repo in git
+
+git init   - - - > to initialise the folder to the git
+
+git remote add origin <-! link->      - - - > to add new remote (github repo)
+
+git remote -v    - - - > (to verify remote)
+
+git branch   - - - > to check the branch
+
+git branch -M main    - - - > to rename branch
+
+git push origin main  or  git push -u origin main (this is used to avoid writing whole syntax : after this by using git push ......only we can add it to the git)
+
+
+* cd :
+cd ..  - - - > (to get out of the specific folder)
+mkdir "name of the sub directory" - - - > used to make sub directory in the folder
+
+* WORKFLOW : - 
+
+Github repo 
+    |
+    |
+  clone
+    |
+    |
+ changes
+    |
+    |
+   add
+    |
+    |
+  commit
+    |
+    |
+   push
+
+
+* BRANCHES : -
+         
+         P5 - - - - P6 - - - - - - - - - P7
+        /                                 \  P8 (FINALLY MERGED TWO FEATURES)  
+       /                                  /  
+P1 - P2 - - - - - - - - - P3 - - - - - P4 
+
+* BRANCH COMMANDS: -
+
+git branch 
+
+git branch -M main 
+
+git checkout <-!new branch name->   - - - - > to navigate
+
+git checkout -b <-!new branch name->  - - - - - > to create a new branch 
+
+git branch -d <-!branch name->   - - - - - -> to delete a branch 
+
